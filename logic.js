@@ -112,12 +112,12 @@ function createMap() {
     var mymap = L.map('mymap', {
         center: [40, -99],
         zoom: 4.3,
-        timeDimension: true,
-        timeDimensionOptions: {
-            timeInterval: "2018-04-01/2018-04-05",
-            period: "PT1H"
-        },
-        timeDimensionControl: true,
+        // timeDimension: true,
+        // timeDimensionOptions: {
+        //     timeInterval: "2018-04-01/2018-04-05",
+        //     period: "PT1H"
+        // },
+        // timeDimensionControl: true,
         layers: [streetMap, earthquakes, plateBoundary]
     });
 
